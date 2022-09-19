@@ -162,7 +162,7 @@ while iniciar_trivia == True:  #  Mientras iniciar_trivia sea True, repite:
           "puntos" + RESET)
 
     time.sleep(2)
-    numero = int(input("\nAntes de acabar ingrese un número: "))
+    numero = int(input("\nAntes de acabar ingrese un número de la suerte: "))
     print(CYAN + "Su resultado final es", puntaje * numero,
           "\nGracias por jugar mi trivia!" + RESET)
     time.sleep(2)
